@@ -231,7 +231,7 @@ h1{
     cursor: pointer;
     font-weight: bold;
     width: 100%;
-    transition: all 0.5 ease;
+    transition: all 0.5s ease;
    
 }
 .botao-form:hover{
@@ -254,5 +254,82 @@ h1{
     }
     50%{
         transform: translateY(-20px);
+    }
+}
+
+/* ===== RESPONSIVO ===== */
+
+/* Tablet (768px) */
+@media (max-width: 768px) {
+
+    
+    .nav-list {
+        gap: 1.5rem;
+    }
+
+    
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    
+    .projetos-caixa {
+        grid-template-columns: 1fr; /* 1 card por linha */
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    
+    .nav-list {
+        gap: 1rem;
+        flex-wrap: wrap; /* quebra linha se necessário */
+        padding: 0.3rem;
+    }
+    .nav-link {
+        font-size: 0.85rem;
+    }
+
+    
+    h1 {
+        font-size: 2rem;
+    }
+    .cabecalho-sub-titulo {
+        font-size: 1rem;
+    }
+    .foto-perfil {
+        width: 160px;
+        height: 160px;
+    }
+
+    
+    .sobre,
+    .projetos,
+    .contato {
+        padding: 4rem 1rem;
+        padding-top: 100px;
+    }
+
+    /* Imagem do card menor no mobile */
+    .projetos-imagem {
+        height: 180px;
+    }
+
+    /* Formulário */
+    .formulario-contato {
+        padding: 1.2rem;
+    }
+    .botao-form {
+        padding: 0.8rem;
     }
 }
