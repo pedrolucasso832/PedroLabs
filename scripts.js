@@ -12,3 +12,5 @@ function enviarWhats(event) {
     
     window.open(url, '_blank');
 }
+
+document.getElementById('copyright').innerHTML = `&copy ${new Date().getFullYear()} Pedro Lucas. Todos os Direitos Reservados.`;
