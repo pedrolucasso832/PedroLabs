@@ -160,13 +160,14 @@ section, main, footer {
     transition: 0.3s;
 }
 .btn-primary{
-    background: var(--cor-areia);
-    color: var(--bg-primary);
+    border: 2px solid var(--texto-claro);
+    color: var(--texto-claro);
+    background: var(--cor-destaque);
 }
 .btn-secondary{
-    border: 2px solid var(--cor-destaque);
-    color: var(--cor-areia);
-    background: var(--bg-primary);
+    background: var(--cor-areia);
+    color: var(--bg-primary);
+    border: 2px solid var(--bg-primary);
 }
 .btn-primary:hover, .btn-secondary:hover{
     transform: translateY(-5px);
