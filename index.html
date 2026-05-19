@@ -1,89 +1,178 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Labs</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/PedroDV.ico" type="image/x-icon">
-    <title>Pedro Lucas DEV</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="logos/Imagem 2 gerada.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon_hex.png">
 </head>
 
 <body>
-
-    <div class="particulas"></div>
-
-    <nav class="nav-titles">
-        <ul class="nav-list">
-            <li><a href="#inicio" class="nav-link">Início</a></li>
-            <li><a href="#sobre" class="nav-link">Sobre</a></li>
-            <li><a href="#projetos" class="nav-link">Projetos</a></li>
-            <li><a href="#contatos" class="nav-link">Contato</a></li>
-        </ul>
-    </nav>
-
-    <main id="inicio" class="cabecalho">
-
-        <img src="imagens/IMG_4078 - 600.JPG" alt="Foto de Pedro Lucas" class="foto-perfil">
-        <!--se apertar ctrl + espaço aparece as pastas que estão as imagens-->
-        <h1>Pedro Lucas</h1>
-        <p class="cabecalho-sub-titulo">Desenvolvedor Web</p>
-
-    </main><!-- o main é a parte principal do site, onde tem a foto e o nome do desenvolvedor -->
-
-    <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre</h2>
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">Sou Pedro Lucas, desenvolvedor web concluinte em Análise e Desenvolvimento de Sistemas pela UEPB. Construo interfaces modernas e funcionais, com foco em aprendizado contínuo e projetos que resolvem problemas reais.</p>
-        </div>
-    </section><!-- o section é uma seção do site, onde tem o título e o parágrafo sobre o desenvolvedor -->
-
-    <section id="projetos" class="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
-        <div class="projetos-caixa">
-
-            <div class="projetos-card">
-                <img src="imagens/projeto1.png" alt="projeto1" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <h3 class="projetos-titulo">Plataforma de Cuidados Animais</h3>
-                    <p class="projetos-descricao">Uma plataforma moderna de adoção e hospedagem de animais de estimação.
-                    </p>
-                </div>
+    <section id="barra-de-navegacao"> <!--seção da barra de navegação-->
+        <nav class="navegacao">
+            <div class="logo-nav">
+                <img src="logos/Imagem 1 gerada.png" alt="Logo PedroLabs" class="logo-img">
+                <h1 class="titulo-nav" id="title-nav">PedroLabs</h1>
             </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#home" class="nav-link" id="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link" id="nav-link">Sobre</a></li>
+                <li><a href="#projects" class="nav-link" id="nav-link">Projetos</a></li>
+                <li><a href="#contacts" class="nav-link" id="nav-link">Contatos</a></li>
+            </ul>
 
-            <div class="projetos-card">
-                <img src="imagens/projeto2.png" alt="projeto2" class="projetos-imagem">
-                <div class="caixa-textos-projeto">
-                    <h3 class="projetos-titulo">Formulário de Agendamento de Visitas</h3>
-                    <p class="projetos-descricao">Formulário de agendamento de visitas para a Fundação José Américo.</p>
-                </div>
-            </div>
-        </div>
-    </section><!-- o section é uma seção do site, onde tem o título e o parágrafo sobre o desenvolvedor -->
-
-    <section id="contatos" class="contato">
-        <h2 class="contato-titulo">Entre em Contato</h2>
-        
-        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
-            </div>
-
-            <div class="grupo-form">
-                <textarea placeholder="Digite sua mensagem" class="campo-form" id="mensagem" rows="6"></textarea>
-            </div>
-            <button type="submit" class="botao-form">Enviar Mensagem</button>
-        </form>
+            <button class="menu-mobile" id="menu-mobile" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
     </section>
-    <!-- o section é uma seção do site, onde tem o título e o formulário de contato do desenvolvedor -->
 
-    <footer class="rodape">
-        <p id="copyright"></p>
+    <main class="sect-inicio" id="home"> <!--seção do início-->
+        <div class="menu">
+            <p class="paragrafo-home">Olá, mundo! Eu sou</p>
+            <h1 class="titulo-home">Pedro Lucas, desenvolvedor front-end.</h1>
+            <p class="descricao-home">
+            <p class="descricao-home">
+                Desenvolvo interfaces modernas, responsivas e experiências digitais focadas em performance,
+                acessibilidade e usabilidade.
+            </p>
+            </p>
+        </div>
+
+        <div class="botoes-home">
+            <a href="#projects" class="btn-primary">Ver Projetos</a>
+
+            <a href="https://wa.me/5583987940269" target="_blank" class="btn-secondary">Falar Comigo</a>
+        </div>
+    </main>
+
+    <section class="sect-sobre" id="about"><!--seção sobre mim-->
+        <div class="sobre-texto">
+            <span class="tag-sobre">SAIBA MAIS</span>
+            <h2 class="titulo-sobre">Sobre mim</h2>
+            <p class="paragrafo-sobre">
+            <p class="paragrafo-sobre">
+                Me chamo Pedro Lucas, tenho 24 anos e estou concluindo o 4º período de Análise e Desenvolvimento de
+                Sistemas na Universidade Estadual da Paraíba. Atuo principalmente como desenvolvedor front-end, crio
+                interfaces modernas, responsivas e focadas em usabilidade. Busco unir design, tecnologia e performance
+                para desenvolver experiências digitais funcionais, acessíveis e agradáveis para diferentes tipos de
+                usuários.
+            </p>
+            </p>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+        <div class="sobre-imagem">
+            <img src="imagens/foto3.jpeg" alt="Pedro Lucas" class="foto-perfil">
+        </div>
+
+    </section>
+
+    <section class="sect-projetos" id="projects"><!--seção de projetos-->
+        <h2 class="title-projects">Projetos</h2>
+
+        <div class="container-projetos">
+
+            <div class="caixa-projetos">
+                <img src="imagens/projeto1.png" alt="foto-projeto1" class="foto-projeto">
+                <div class="descricao-projeto">
+                    <h3 class="titulo-projeto">Plataforma de cuidados de animais</h3>
+                    <p class="paragrafo-projeto">Interface de uma plataforma para gerenciar e agendar cuidados com
+                        animais de estimação e
+                        em condições de abandono.</p>
+                </div>
+            </div>
+
+            <div class="caixa-projetos">
+                <img src="imagens/projeto2.png" alt="foto-projeto2" class="foto-projeto">
+                <div class="descricao-projeto">
+                    <h3 class="titulo-projeto">Sistema de agendamento para a Fundação Casa José Américo</h3>
+                    <p class="paragrafo-projeto">Criação de uma interface simples e funcional para gerenciar
+                        agendamentos.</p>
+                </div>
+            </div>
+
+            <div class="caixa-projetos">
+                <img src="imagens/projeto3.png" alt="foto-projeto3" class="foto-projeto">
+                <div class="descricao-projeto">
+                    <h3 class="titulo-projeto">Criação do meu portfólio v1.0</h3>
+                    <p class="paragrafo-projeto">Desenvolvimento front-end de um portfólio profissional para apresentar
+                        meus
+                        projetos e habilidades.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sect-contato" id="contacts"><!--seção de contato-->
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="text-contact">
+                    <span class="contact-tag">ENTRE EM CONTATO!</span>
+
+                    <h2 class="titulo-contato">Vamos tirar suas ideias do papel?</h2>
+
+                    <p class="descricao-contato">Estou disponível para projetos web, freelancer,
+                        oportunidades e novas conexões na área de tecnologia.
+                    </p>
+
+                    <div class="redes-sociais"> <!--div para redes sociais-->
+                        <a href="https://github.com/pedrolucasso832" target="_blank" class="social-card">
+
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/pedrolucass0/" target="_blank" class="social-card">
+
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+
+                        <a href="mailto:pedrolabs.dev@gmail.com" target="_blank" class="social-card">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>E-mail</span>
+                        </a>
+
+                        <a href="https://wa.me/5583987940269" target="_blank" class="social-card whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <form class="form-contact" id="form"><!--formulário de contato-->
+                <input type="text" id="name" placeholder="Digite seu nome" required>
+                <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                <textarea id="message" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit" class="btn-contact">Enviar Mensagem</button>
+
+                <p id="mensagem-status"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>
+            &copy;
+            <span id="ano-atual"></span>
+            PedroLabs. Todos os direitos reservados.
+        </p>
     </footer>
 
-    <script src="scripts.js"></script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
