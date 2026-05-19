@@ -1,32 +1,32 @@
-# PedroLabs - Portfolio v2.0
+# PedroLabs - Portfólio v2.0
 
-Portfolio profissional desenvolvido para apresentar minha trajetoria como desenvolvedor front-end, meus principais projetos, habilidades tecnicas e canais de contato.
+Portfólio profissional desenvolvido para apresentar minha trajetória como desenvolvedor front-end, meus principais projetos, habilidades técnicas e canais de contato.
 
-A versao 2.0 do PedroLabs foi criada com foco em uma experiencia mais moderna, responsiva e objetiva, reunindo identidade visual propria, navegacao fluida e uma estrutura clara para apresentacao profissional.
+A versão 2.0 do PedroLabs foi criada com foco em uma experiência mais moderna, responsiva e objetiva, reunindo identidade visual própria, navegação fluida e uma estrutura clara para apresentação profissional.
 
 ## Acesse o Projeto
 
-O portfolio esta disponivel online pelo GitHub Pages:
+O portfólio está disponível online pelo GitHub Pages:
 
 [https://pedrolucasso832.github.io/PedroLabs/](https://pedrolucasso832.github.io/PedroLabs/)
 
 ## Sobre o Projeto
 
-O PedroLabs e um site de pagina unica desenvolvido com HTML, CSS e JavaScript puro. A proposta do projeto e apresentar, de forma direta e visualmente consistente, minha atuacao como desenvolvedor front-end e facilitar o contato com recrutadores, clientes e pessoas interessadas em projetos web.
+O PedroLabs é um site de página única desenvolvido com HTML, CSS e JavaScript puro. A proposta do projeto é apresentar, de forma direta e visualmente consistente, minha atuação como desenvolvedor front-end e facilitar o contato com recrutadores, clientes e pessoas interessadas em projetos web.
 
-O site possui secoes dedicadas a apresentacao inicial, resumo profissional, projetos desenvolvidos e canais de contato.
+O site possui seções dedicadas à apresentação inicial, resumo profissional, projetos desenvolvidos e canais de contato.
 
 ## Funcionalidades
 
-- Navegacao por secoes em pagina unica
-- Menu responsivo para dispositivos moveis
+- Navegação por seções em página única
+- Menu responsivo para dispositivos móveis
 - Layout adaptado para desktop, tablet e celular
-- Cards para apresentacao de projetos
-- Formulario de contato com validacao simples
-- Integracao do formulario com WhatsApp
+- Cards para apresentação de projetos
+- Formulário de contato com validação simples
+- Integração do formulário com WhatsApp
 - Links diretos para GitHub, LinkedIn, e-mail e WhatsApp
-- Atualizacao automatica do ano no rodape
-- Efeitos visuais em botoes, cards, links e campos de formulario
+- Atualização automática do ano no rodapé
+- Efeitos visuais em botões, cards, links e campos de formulário
 
 ## Tecnologias Utilizadas
 
@@ -55,27 +55,27 @@ O site possui secoes dedicadas a apresentacao inicial, resumo profissional, proj
     └── pedrolabs_atom_nova_paleta.svg
 ```
 
-## Secoes
+## Seções
 
-### Inicio
+### Início
 
-Apresentacao principal com nome, area de atuacao e chamadas para visualizar projetos ou iniciar contato.
+Apresentação principal com nome, área de atuação e chamadas para visualizar projetos ou iniciar contato.
 
 ### Sobre Mim
 
-Resumo da minha trajetoria, formacao em Analise e Desenvolvimento de Sistemas e foco profissional em desenvolvimento front-end.
+Resumo da minha trajetória, formação em Análise e Desenvolvimento de Sistemas e foco profissional em desenvolvimento front-end.
 
 ### Projetos
 
-Area destinada a exibicao dos principais projetos, com titulo, descricao e imagem representativa de cada trabalho.
+Área destinada à exibição dos principais projetos, com título, descrição e imagem representativa de cada trabalho.
 
 ### Contato
 
-Secao com links para redes profissionais e formulario que direciona a mensagem preenchida para o WhatsApp.
+Seção com links para redes profissionais e formulário que direciona a mensagem preenchida para o WhatsApp.
 
 ## Como Executar Localmente
 
-Clone o repositorio:
+Clone o repositório:
 
 ```bash
 git clone https://github.com/pedrolucasso832/PedroLabs.git
@@ -89,16 +89,16 @@ cd PedroLabs
 
 Abra o arquivo `index.html` no navegador.
 
-Como o projeto utiliza apenas HTML, CSS e JavaScript puro, nao e necessario instalar dependencias.
+Como o projeto utiliza apenas HTML, CSS e JavaScript puro, não é necessário instalar dependências.
 
-## Melhorias da Versao 2.0
+## Melhorias da Versão 2.0
 
-- Interface mais moderna e alinhada a identidade PedroLabs
-- Melhor organizacao das informacoes profissionais
+- Interface mais moderna e alinhada à identidade PedroLabs
+- Melhor organização das informações profissionais
 - Design responsivo aprimorado
-- Nova secao de contato com formulario integrado ao WhatsApp
-- Melhor experiencia de navegacao em dispositivos moveis
-- Estrutura visual mais consistente para apresentacao de projetos
+- Nova seção de contato com formulário integrado ao WhatsApp
+- Melhor experiência de navegação em dispositivos móveis
+- Estrutura visual mais consistente para apresentação de projetos
 
 ## Contato
 
