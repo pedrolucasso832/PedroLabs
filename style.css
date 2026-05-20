@@ -292,6 +292,16 @@ section, main, footer {
     opacity: 0.85;
     font-size: 0.95rem;
 }
+
+.projeto-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.projeto-link:hover {
+    transform: translateY(-6px);
+}
 .sect-contato{
     min-height: 100vh;
     padding: 6rem 10%;
