@@ -32,7 +32,7 @@ form.addEventListener("submit",(event)=>{
         return;
     }
 
-    const telefone = "5583987940269";
+    const telefone = "5583988510269";
     const texto = `Olá, me chamo ${nome}. Meu email é: ${email}  
     
     ${mensagem}`;
