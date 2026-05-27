@@ -105,7 +105,7 @@ Como o projeto utiliza apenas HTML, CSS e JavaScript puro, não é necessário i
 - GitHub: [pedrolucasso832](https://github.com/pedrolucasso832)
 - LinkedIn: [pedrolucass0](https://www.linkedin.com/in/pedrolucass0/)
 - E-mail: [pedrolabs.dev@gmail.com](mailto:pedrolabs.dev@gmail.com)
-- WhatsApp: [Enviar mensagem](https://wa.me/5583987940269)
+- WhatsApp: [Enviar mensagem](https://wa.me/5583988510269)
 
 ## Autor
 
